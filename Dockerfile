@@ -2,7 +2,7 @@
 
 FROM ubuntu:18.04
 
-LABEL maintainer="malvarez00@icloud.com"
+LABEL maintainer="mattweiler1984@gmail.com"
 ARG VERSION=0.42
 
 # Environment Settings
