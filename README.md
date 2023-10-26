@@ -13,28 +13,29 @@ Just configure a camera and run this docker, then videos and images can be saved
 On top of that, the webcam can be accessed anytime via HTTP live streaming.
 
 # Default ADMIN Credentials
-Username: admin \
+Username: `admin` \
 Password: 
 
 ***
 # Host Paths -> Container Paths
 ## Configuration Path
-/etc/motioneye -> /mnt/user/appdata/motioneye/config \
+`/etc/motioneye` -> `/mnt/user/appdata/motioneye/config` \
 The path to where the MotionEye configuration will be stored.
 
 ## Media Files Path
-/var/lib/motioneye -> /mnt/user/appdata/surveillanceVideos \
+`/var/lib/motioneye` -> `/mnt/user/appdata/surveillanceVideos` \
 The path on your host system where the captured videos/images will be stored.
 
 ## Local Time Path
-/etc/localtime -> /etc/localtime \
+`/etc/localtime` -> `/etc/localtime` \
 The path on your host system for the local-time. \
 This will allow the MotionEye application to access the date/time from your host machine.
 
 
 ***
-# Ports
+# Ports (container -> host)
 ## WEB UI
+`8765` -> `8765` \
 The port that you want to access your docker container from externally.
 
 ## Cam Streams
