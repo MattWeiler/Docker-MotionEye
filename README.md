@@ -1,6 +1,8 @@
 # Docker-MotionEye
 
-https://github.com/ccrisan/motioneye
+Forked from:
+- https://github.com/malvarez00/Docker-MotionEye
+- https://github.com/ccrisan/motioneye
 
 
 
