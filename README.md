@@ -13,7 +13,7 @@ Just configure a camera and run this docker, then videos and images can be saved
 On top of that, the webcam can be accessed anytime via HTTP live streaming.
 
 # Default ADMIN Credentials
-Username: admin
+Username: admin \
 Password: 
 
 ***
