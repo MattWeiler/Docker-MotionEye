@@ -16,6 +16,7 @@ RUN apt-get --quiet --yes install motion \
 
 RUN apt-get --quiet --yes install python-pip \
                                   python-dev \
+                                  python-tz \
                                   curl \
                                   libssl-dev \
                                   libcurl4-openssl-dev \
